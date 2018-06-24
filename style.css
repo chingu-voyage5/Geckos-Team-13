@@ -3,4 +3,10 @@ body {
   background: url("default-nature-background.jpg");
 }
 
+.test {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
