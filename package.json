@@ -1,0 +1,22 @@
+{
+  "name": "geckos-team-13",
+  "version": "1.0.0",
+  "description": "package.json file for app",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingu-voyage5/Geckos-Team-13.git"
+  },
+  "author": "Geckos-Team-13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chingu-voyage5/Geckos-Team-13/issues"
+  },
+  "homepage": "https://github.com/chingu-voyage5/Geckos-Team-13#readme",
+  "dependencies": {
+    "unsplash-js": "^4.8.0"
+  }
+}

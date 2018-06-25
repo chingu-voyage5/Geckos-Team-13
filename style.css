@@ -1,12 +1,17 @@
-body {
-  background-size: cover;
-  background: url("default-nature-background.jpg");
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.test {
-  color: white;
-  font-size: 24px;
-  text-align: center;
-}
+body {
+  width: 100vw;
+  height: 100vh; }
+  body .test {
+    width: 100%;
+    height: 100%;
+    background: url("https://source.unsplash.com/featured/pretty");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
