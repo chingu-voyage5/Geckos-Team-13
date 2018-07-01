@@ -1,0 +1,78 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Uma foto nova e deslumbrante no seu browser Chrome, cada vez que abrir uma nova tab."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Nova Tab by Getty Images"
+   },
+   "credit": {
+      "description": "Artist credit for background image",
+      "message": "Crédito: "
+   },
+   "options_carousel_categories": {
+      "description": "Carousel drop down",
+      "message": "Categoria de carrossel predefinida"
+   },
+   "options_clock_style": {
+      "description": "Clock style label",
+      "message": "Estilo de relógio"
+   },
+   "options_clock_style_12h": {
+      "description": "12h radio button",
+      "message": "Relógio de 12h"
+   },
+   "options_clock_style_24h": {
+      "description": "24h radio button",
+      "message": "Relógio de 24h"
+   },
+   "options_clock_style_default": {
+      "description": "Default radio button",
+      "message": "Padrão"
+   },
+   "options_save_button": {
+      "description": "Save button",
+      "message": "GUARDAR E APLICAR"
+   },
+   "options_saved_msg": {
+      "description": "Option saved message",
+      "message": "Opções guardadas"
+   },
+   "options_show_carousel": {
+      "description": "Carousel switch",
+      "message": "Carrossel"
+   },
+   "options_show_clock": {
+      "description": "Clock switch",
+      "message": "Relógio"
+   },
+   "options_show_search": {
+      "description": "Search box switch",
+      "message": "Caixa de Pesquisa"
+   },
+   "options_title": {
+      "description": "Option dialog title",
+      "message": "Opções e Configurações"
+   },
+   "photoscom_list": {
+      "description": "Photos.com text for background image",
+      "message": "Compre esta imagem para a sua parede em Photos.com"
+   },
+   "search_getty": {
+      "description": "Search box placeholder",
+      "message": "Pesquisar na Getty Images"
+   },
+   "search_google": {
+      "description": "Search box placeholder",
+      "message": "Pesquisar na Google"
+   },
+   "search_istock": {
+      "description": "Search box placeholder",
+      "message": "Pesquisar na iStock"
+   },
+   "view_similar_images": {
+      "description": "View similar getty link for backgound image",
+      "message": "Ver imagens semelhantes"
+   }
+}

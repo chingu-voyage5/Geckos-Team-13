@@ -1,0 +1,78 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ein atemberaubendes neues Foto auf jedem neu geöffneten Tab in Ihrem Chrome-Browser"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "New Tab by Getty Images"
+   },
+   "credit": {
+      "description": "Artist credit for background image",
+      "message": "Bildnachweis: "
+   },
+   "options_carousel_categories": {
+      "description": "Carousel drop down",
+      "message": "Voreingestellte Karussell-Kategorie"
+   },
+   "options_clock_style": {
+      "description": "Clock style label",
+      "message": "Uhren-Einstellung"
+   },
+   "options_clock_style_12h": {
+      "description": "12h radio button",
+      "message": "12-Stunden-Zählung"
+   },
+   "options_clock_style_24h": {
+      "description": "24h radio button",
+      "message": "24-Stunden-Zählung"
+   },
+   "options_clock_style_default": {
+      "description": "Default radio button",
+      "message": "Standard"
+   },
+   "options_save_button": {
+      "description": "Save button",
+      "message": "SPEICHERN UND ANWENDEN"
+   },
+   "options_saved_msg": {
+      "description": "Option saved message",
+      "message": "Optionen gespeichert"
+   },
+   "options_show_carousel": {
+      "description": "Carousel switch",
+      "message": "Karussell"
+   },
+   "options_show_clock": {
+      "description": "Clock switch",
+      "message": "Uhr"
+   },
+   "options_show_search": {
+      "description": "Search box switch",
+      "message": "Suchfeld"
+   },
+   "options_title": {
+      "description": "Option dialog title",
+      "message": "Optionen und Einstellungen"
+   },
+   "photoscom_list": {
+      "description": "Buy this image for your wall at photos.com",
+      "message": "Dieses Bild für Ihre Wand auf Photos.com kaufen"
+   },
+   "search_getty": {
+      "description": "Search box placeholder",
+      "message": "Getty Images durchsuchen"
+   },
+   "search_google": {
+      "description": "Search box placeholder",
+      "message": "Google durchsuchen"
+   },
+   "search_istock": {
+      "description": "Search box placeholder",
+      "message": "iStock durchsuchen"
+   },
+   "view_similar_images": {
+      "description": "View similar getty link for backgound image",
+      "message": "Ähnliche Bilder ansehen"
+   }
+}

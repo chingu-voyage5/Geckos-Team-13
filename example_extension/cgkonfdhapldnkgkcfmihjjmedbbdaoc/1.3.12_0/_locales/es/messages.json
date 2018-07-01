@@ -1,0 +1,78 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Una nueva foto fabulosa en tu navegador Chrome cada vez que abres una nueva pestaña"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "New Tab by Getty Images"
+   },
+   "credit": {
+      "description": "Artist credit for background image",
+      "message": "Autor: "
+   },
+   "options_carousel_categories": {
+      "description": "Carousel drop down",
+      "message": "Categoría de carrusel predeterminada"
+   },
+   "options_clock_style": {
+      "description": "Clock style label",
+      "message": "Estilo de reloj"
+   },
+   "options_clock_style_12h": {
+      "description": "12h radio button",
+      "message": "Formato 12 horas"
+   },
+   "options_clock_style_24h": {
+      "description": "24h radio button",
+      "message": "Formato 24 horas"
+   },
+   "options_clock_style_default": {
+      "description": "Default radio button",
+      "message": "Predeterminado"
+   },
+   "options_save_button": {
+      "description": "Save button",
+      "message": "GUARDAR Y APLICAR"
+   },
+   "options_saved_msg": {
+      "description": "Option saved message",
+      "message": "Opciones guardadas"
+   },
+   "options_show_carousel": {
+      "description": "Carousel switch",
+      "message": "Carrusel"
+   },
+   "options_show_clock": {
+      "description": "Clock switch",
+      "message": "Reloj"
+   },
+   "options_show_search": {
+      "description": "Search box switch",
+      "message": "Cuadro de búsqueda"
+   },
+   "options_title": {
+      "description": "Option dialog title",
+      "message": "Opciones y ajustes"
+   },
+   "photoscom_list": {
+      "description": "Buy this image for your wall at Photos.com",
+      "message": "Compra esta imagen para tu muro en Photos.com"
+   },
+   "search_getty": {
+      "description": "Search box placeholder",
+      "message": "Buscar en Getty Images"
+   },
+   "search_google": {
+      "description": "Search box placeholder",
+      "message": "Buscar en Google"
+   },
+   "search_istock": {
+      "description": "Search box placeholder",
+      "message": "Buscar en iStock"
+   },
+   "view_similar_images": {
+      "description": "View similar getty link for backgound image",
+      "message": "Ver imágenes similares"
+   }
+}

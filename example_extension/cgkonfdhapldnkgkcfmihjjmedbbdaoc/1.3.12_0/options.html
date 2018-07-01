@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Tab Options</title>
+  <style>
+    body: { padding: 10px; }
+  </style>
+  <script src="javascript/jquery/jquery.min.js"></script>
+  <script src="javascript/localization.js"></script>
+  <script src="javascript/options.js"></script>
+  <link rel="stylesheet" href="stylesheets/options.css" type="text/css">
+</head>
+
+<body>
+  <div class='options-header'>
+    <h2 data-loc='options_title'></h2>
+    <div class='close'></div>
+  </div>
+  <div class='options'>
+    <section>
+      <label data-loc='options_show_search'></label>
+      <div class="slide-checkbox">
+        <input type="checkbox" value="None" id="show-search-box" name="check" checked />
+        <label for="show-search-box"></label>
+      </div>
+    </section>
+    <section>
+      <label data-loc='options_show_clock'></label>
+      <div class="slide-checkbox">
+        <input type="checkbox" value="None" id="show-clock" name="check" checked />
+        <label for="show-clock"></label>
+      </div>
+    </section>
+    <section id='clock-style'>
+      <label data-loc='options_clock_style'></label>
+      <div class='styles'>
+        <label class="control control-radio"><span data-loc='options_clock_style_default'></span>
+          <input type="radio" name="clock-style" value="default" checked="checked"/>
+          <div class="control-indicator"></div>
+        </label>
+        <label class="control control-radio"><span data-loc='options_clock_style_12h'></span>
+          <input type="radio" name="clock-style" value="12h" checked="checked"/>
+          <div class="control-indicator"></div>
+        </label>
+        <label class="control control-radio"><span data-loc='options_clock_style_24h'></span>
+          <input type="radio" name="clock-style" value="24h" checked="checked"/>
+          <div class="control-indicator"></div>
+        </label>
+      </div>
+    </section>
+    <section>
+      <label data-loc='options_show_carousel'></label>
+      <div class="slide-checkbox">
+        <input type="checkbox" value="None" id="show-carousel" name="check" checked />
+        <label for="show-carousel"></label>
+      </div>
+      <div id='default-carousel-category'>
+        <label data-loc='options_carousel_categories'></label>
+        <select></select>
+      </div>
+    </section>
+
+    <div id="status" data-loc='options_saved_msg'></div>
+
+    <button id="save" data-loc='options_save_button'></button>
+  </div>
+</body>
+</html>

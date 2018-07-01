@@ -1,0 +1,78 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ett fantastiskt nytt foto i webbläsaren Chrome varje gång du öppnar en ny flik"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Ny flik från Getty Images"
+   },
+   "credit": {
+      "description": "Artist credit for background image",
+      "message": "Upphovsman: "
+   },
+   "options_carousel_categories": {
+      "description": "Carousel drop down",
+      "message": "Standardkarusellkategori"
+   },
+   "options_clock_style": {
+      "description": "Clock style label",
+      "message": "Klockstil"
+   },
+   "options_clock_style_12h": {
+      "description": "12h radio button",
+      "message": "12t klocka"
+   },
+   "options_clock_style_24h": {
+      "description": "24h radio button",
+      "message": "24t klocka"
+   },
+   "options_clock_style_default": {
+      "description": "Default radio button",
+      "message": "Standard"
+   },
+   "options_save_button": {
+      "description": "Save button",
+      "message": "SPARA OCH VERKSTÄLL"
+   },
+   "options_saved_msg": {
+      "description": "Option saved message",
+      "message": "Alternativ sparade"
+   },
+   "options_show_carousel": {
+      "description": "Carousel switch",
+      "message": "Carousel"
+   },
+   "options_show_clock": {
+      "description": "Clock switch",
+      "message": "Klocka"
+   },
+   "options_show_search": {
+      "description": "Search box switch",
+      "message": "Sökruta"
+   },
+   "options_title": {
+      "description": "Option dialog title",
+      "message": "Alternativ och Inställningar"
+   },
+   "photoscom_list": {
+      "description": "Photos.com text for background image",
+      "message": "Köp den här bilden till din vägg på Photos.com"
+   },
+   "search_getty": {
+      "description": "Search box placeholder",
+      "message": "Sök på Getty Images"
+   },
+   "search_google": {
+      "description": "Search box placeholder",
+      "message": "Sök på Google"
+   },
+   "search_istock": {
+      "description": "Search box placeholder",
+      "message": "Sök på iStock"
+   },
+   "view_similar_images": {
+      "description": "View similar getty link for backgound image",
+      "message": "Visa liknande bilder"
+   }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/styles.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="stylesheets/options.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id='options-dialog'></div>
+    <div id='screen'></div>
+    <div id='cover'></div>
+    <div id='top'></div>
+    <div id='bottom'></div>
+    <nav class="navbar" id="top">
+      <div class="inner ">
+        <a class="fade-in logo" href="http://www.gettyimages.com?esource=chrome-extension"><img height="20" src="images/logo-gi-white.svg"></a>
+        <div class="social-icons">
+          <!-- config icon -->
+<!--           <a href="#" class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-bars fa-stack-1x fa-inverse" ></i>
+          </a> -->
+        </div>
+        <div class="menu-icons">
+          <a id='options-btn' class="icon"><span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x circle-hover"></i>
+            <i class="fa fa-gear  fa-stack-1x fa-inverse"></i></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  <div id='searches' class='fade-in'>
+    <div id='search-type'><span id='google-btn' class='piped'>Google</span><span class='disabled piped ' id='getty-btn'>Getty Images</span><span class='disabled' id='istock-btn'>iStock</span></div>
+    <div class="widget enabled" id="google-btn-search">
+      <form id="search-form" method="get" action="https://www.google.com/search">
+        <div class="form-group">
+          <span class="search-icon">
+            <i class="glyphicon glyphicon-search"></i>
+          </span>
+          <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;"><input class="typeahead tt-hint" type="text" disabled="" autocomplete="off" spellcheck="false" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none;"><input class="typeahead tt-input" name="q" type="text" data-placeholder-loc="search_google" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 26px; font-style: normal; font-variant: normal; font-weight: 200; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto; width: 505px;"><div class="tt-dataset-0"></div></span></span>
+          <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;">
+        </div>
+      </form>
+    </div>
+    <div class="widget" id="getty-btn-search">
+      <form id="gettyimages-search-form" method="get" action="https://www.gettyimages.com/photos/chrome-extension">
+        <input type='hidden' name='esource' value="chrome-extension">
+        <input type="text" data-placeholder-loc="search_getty">
+      </form>
+    </div>
+    <div class="widget" id="istock-btn-search">
+      <form id="istockphoto-search-form" method="get" action="https://www.istockphoto.com/photos/cat">
+        <input type="text" data-placeholder-loc="search_istock">
+      </form>
+    </div>
+  </div>
+  <section id='bottom-section' class="fade-in">
+    <div id="info-row">
+      <section id='clock-date' class='shadow'>
+        <div id="clock">
+        </div>
+        <div id='date'></div>
+      </section>
+      <section class='img-info collapsed'>
+        <div class='img-caption'></div>
+        <div class='info-box'>
+          <div class='top-info'>
+            <div class='title'></div> 
+            <div class='artist'></div> 
+            <a class='getty-link' data-loc='view_similar_images'></a>
+          </div>
+          <a class='photoscom' data-loc='photoscom_list'></a>
+        </div>
+        <a class='icon'>
+          <span class='fa-stack fa-lg credit'>
+            <i class="fa fa-circle fa-stack-2x circle-hover"></i>
+            <i class="fa fa-photo fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </section>
+    </div>
+    <div id='carousel-container'>
+      <div id='carousel'>
+      </div>
+      <div id='bottom-row'></div>
+      <ul id='carousel-source'>
+        <li id='All' data-loc='category_all'></li>
+        <li id='News' data-loc='category_news'></li>
+        <li id='Entertainment' data-loc='category_entertainment'></li>
+        <li id='Sport' data-loc='category_sport'></li>
+      </ul>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="javascript/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/jquery/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

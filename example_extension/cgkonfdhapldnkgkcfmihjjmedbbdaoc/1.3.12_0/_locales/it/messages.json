@@ -1,0 +1,78 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Una nuova foto straordinaria ogni volta che apri una scheda sul tuo browser Chrome"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "New Tab by Getty Images"
+   },
+   "credit": {
+      "description": "Artist credit for background image",
+      "message": "Attestazione: "
+   },
+   "options_carousel_categories": {
+      "description": "Carousel drop down",
+      "message": "Categoria galleria predefinita"
+   },
+   "options_clock_style": {
+      "description": "Clock style label",
+      "message": "Formato orologio"
+   },
+   "options_clock_style_12h": {
+      "description": "12h radio button",
+      "message": "Orologio 12 ore"
+   },
+   "options_clock_style_24h": {
+      "description": "24h radio button",
+      "message": "Orologio 24 ore"
+   },
+   "options_clock_style_default": {
+      "description": "Default radio button",
+      "message": "Default"
+   },
+   "options_save_button": {
+      "description": "Save button",
+      "message": "SALVA ED APPLICA"
+   },
+   "options_saved_msg": {
+      "description": "Option saved message",
+      "message": "Opzioni salvate"
+   },
+   "options_show_carousel": {
+      "description": "Carousel switch",
+      "message": "Carosello"
+   },
+   "options_show_clock": {
+      "description": "Clock switch",
+      "message": "Orologio"
+   },
+   "options_show_search": {
+      "description": "Search box switch",
+      "message": "Casella di ricerca"
+   },
+   "options_title": {
+      "description": "Option dialog title",
+      "message": "Opzioni e impostazioni"
+   },
+   "photoscom_list": {
+      "description": "Photos.com text for background image",
+      "message": "Acquista questa immagine per la tua parete su Photos.com"
+   },
+   "search_getty": {
+      "description": "Search box placeholder",
+      "message": "Cerca su Getty Images"
+   },
+   "search_google": {
+      "description": "Search box placeholder",
+      "message": "Cerca su Google"
+   },
+   "search_istock": {
+      "description": "Search box placeholder",
+      "message": "Cerca su iStock"
+   },
+   "view_similar_images": {
+      "description": "View similar getty link for backgound image",
+      "message": "Visualizza immagini simili"
+   }
+}

@@ -1,0 +1,237 @@
+#options-dialog {
+  position: absolute;
+  width: 420px;
+  height: 400px;
+  background-color: white;
+  z-index: 99999;
+  display: none;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -210px;
+  background-color: black;
+  color: white;
+}
+
+.options-header {
+  display: none;
+  height: 40px;
+  background-color: #222;
+  line-height: 40px;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+.full .options-header {
+  display: block;
+}
+
+
+.options-header h2 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.close:hover::before, .close:hover::after {
+  background: #4cb7ff;
+
+}
+.close::before, .close::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: white;
+  width: 20px;
+  height: 1px;
+}
+.close::before {
+  transform: rotate(45deg);
+}
+.close::after {
+  transform: rotate(-45deg);
+}
+
+.options {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.options section {
+  margin-bottom: 15px;
+}
+
+.options section#clock-style .styles {
+  padding: 10px 0 0 20px;
+}
+
+.options section#clock-style .control-radio {
+  display: block;
+}
+
+.options section#clock-style.disabled {
+  display: none;
+}
+
+.full .options section#clock-style.disabled {
+  display: block;
+}
+
+.full .options section#clock-style.disabled {
+  color: grey;
+}
+
+.options label {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.options button {
+  padding: 5px;
+  font-size: 14px;
+  padding: 5px 20px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.full .options button {
+  border: 0;
+  background-color: #4cb7ff;
+  color: white;
+}
+
+.slide-checkbox {
+  display: inline-block;
+  width: 80px;
+  height: 26px;
+  background: #333;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.slide-checkbox:after {
+  content: 'OFF';
+  color: #000;
+  position: absolute;
+  right: 10px;
+  z-index: 0;
+  font: 12px/26px Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
+}
+
+.slide-checkbox:before {
+  content: 'ON';
+  color: #27ae60;
+  position: absolute;
+  left: 10px;
+  z-index: 0;
+  font: 12px/26px Arial, sans-serif;
+  font-weight: bold;
+}
+.slide-checkbox label {
+  display: block;
+  width: 34px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 1;
+  background: #fcfff4;
+  background-color: #ccc;
+  border-radius: 50px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.slide-checkbox input[type=checkbox] {
+  visibility: hidden;
+}
+.slide-checkbox input[type=checkbox]:checked + label {
+  left: 43px;
+}
+
+.control {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  vertical-align: middle;
+}
+.control-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.control-radio .control-indicator {
+  border-radius: 50%;
+}
+.control input:checked ~ .control-indicator {
+  background: #27ae60;
+}
+.control input:disabled ~ .control-indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control-indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control-indicator:after {
+  display: block;
+}
+
+.control-indicator:after {
+  border-color: #7b7b7b;
+}
+.control-radio .control-indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.control-radio input:disabled ~ .control-indicator:after {
+  background: #7b7b7b;
+}
+#status {
+  display: none;
+}
+
+#default-carousel-category {
+  margin-top: 10px;
+}
+
+#default-carousel-category select {
+  background-color: #ccc;
+  border: none;
+  font-size: 14px;
+  height: 25px;
+  width: 130px;
+  padding: 5px;
+  vertical-align: top;
+}

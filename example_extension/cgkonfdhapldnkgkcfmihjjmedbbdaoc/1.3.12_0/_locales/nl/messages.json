@@ -1,0 +1,78 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Elke keer als u een nieuw tabblad opent, krijgt u een verrassende foto in uw Chrome-browser cadeau."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "New Tab by Getty Images"
+   },
+   "credit": {
+      "description": "Artist credit for background image",
+      "message": "Credits: "
+   },
+   "options_carousel_categories": {
+      "description": "Carousel drop down",
+      "message": "Standaardcarrouselcategorie"
+   },
+   "options_clock_style": {
+      "description": "Clock style label",
+      "message": "Klokstijl"
+   },
+   "options_clock_style_12h": {
+      "description": "12h radio button",
+      "message": "12-uurs klok"
+   },
+   "options_clock_style_24h": {
+      "description": "24h radio button",
+      "message": "24-uurs klok"
+   },
+   "options_clock_style_default": {
+      "description": "Default radio button",
+      "message": "Standaard"
+   },
+   "options_save_button": {
+      "description": "Save button",
+      "message": "OPSLAAN EN TOEPASSEN"
+   },
+   "options_saved_msg": {
+      "description": "Option saved message",
+      "message": "Opties opgeslagen"
+   },
+   "options_show_carousel": {
+      "description": "Carousel switch",
+      "message": "Carrousel"
+   },
+   "options_show_clock": {
+      "description": "Clock switch",
+      "message": "Klok"
+   },
+   "options_show_search": {
+      "description": "Search box switch",
+      "message": "Zoekvak"
+   },
+   "options_title": {
+      "description": "Option dialog title",
+      "message": "Opties en instellingen"
+   },
+   "photoscom_list": {
+      "description": "Photos.com text for background image",
+      "message": "Dit beeld kopen voor aan uw muur bij Photos.com"
+   },
+   "search_getty": {
+      "description": "Search box placeholder",
+      "message": "Zoek in Getty Images"
+   },
+   "search_google": {
+      "description": "Search box placeholder",
+      "message": "Zoek met Google"
+   },
+   "search_istock": {
+      "description": "Search box placeholder",
+      "message": "Zoek in iStock"
+   },
+   "view_similar_images": {
+      "description": "View similar getty link for backgound image",
+      "message": "Gelijksoortige beelden bekijken"
+   }
+}

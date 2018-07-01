@@ -1,0 +1,20 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqsLmwTKiJkZ2Rv4H9iMqnktxHiuWwAsAO5YfbhaMV9hTgBz0LkUuky9D4w5Zz3ZoSLqBlOJbOw+kOiPA5E7QezGjjSxiTwtlARuBHlK6zzfVXPI+4sjf2V6XIHfRRBtutinLhytpQQMcXmG8Xul4gYLMV8Xjdq3wEMM+o6rlfi+hGAqSUp7c75qsXWMv2ffG0U8pRYgDEmCLP42wFzyD6GvYwxY3SXTeDm8hFgE1BF3MNFprgruPcc71NEzP029B6J4Bq4xtbBtl6gTeanaXy5rY3DADo5VYLqnh3OF+JxPiT5+7LqxNu/5hZrARKD4VkGKGXbhCPb08oK+umhUuVQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage" ],
+   "short_name": "Getty Images",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.12"
+}
